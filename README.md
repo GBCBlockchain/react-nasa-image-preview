@@ -27,18 +27,16 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# App Notes
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- This application is only partially complete. The search form ,image container and the main App component provide a partial example of how to structure an app and to communicate between components.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- TODO: - in order to really complete this app the following needs to be completed:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  1. Get the pagination component set up.
+  
+  2. Add communication between the paginator, app and image container components to facilitate delivery of 12
+  images at a time to the image container depending on page. 
+  
+  3. Style the app.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

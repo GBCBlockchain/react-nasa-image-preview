@@ -8,12 +8,12 @@ class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            nasaImages: []
+            nasaImages: [],
+            page: 0
         };
     }
     fetchData(search) {
         const url = `https://images-api.nasa.gov/search?q=${search}&media_type=image`
-         // const that = this
         fetch(url)
             .then(response => response.json())
             .then(data => data["collection"]["items"].map((item) => { return {
